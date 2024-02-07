@@ -1,35 +1,26 @@
-# //  Questa Sim-64
-# //  Version 2021.3_1 linux_x86_64 Aug 15 2021
-# //
-# //  Copyright 1991-2021 Mentor Graphics Corporation
-# //  All Rights Reserved.
-# //
-# //  QuestaSim and its associated documentation contain trade
-# //  secrets and commercial or financial information that are the property of
-# //  Mentor Graphics Corporation and are privileged, confidential,
-# //  and exempt from disclosure under the Freedom of Information Act,
-# //  5 U.S.C. Section 552. Furthermore, this information
-# //  is prohibited from disclosure under the Trade Secrets Act,
-# //  18 U.S.C. Section 1905.
-# //
-# do silly.do
-# QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
-# Start time: 08:00:18 on Aug 08,2022
-# vlog -reportprogress 300 silly.sv silly_tb.sv 
-# -- Compiling module silly
+# do fullAdder.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:31:21 on Feb 07,2024
+# vlog -reportprogress 300 fullAdder.sv fullAdder_tb.sv 
+# -- Compiling module fullAdder
 # -- Compiling module tb
 # 
 # Top level modules:
+# 	fullAdder
 # 	tb
-# End time: 08:00:18 on Aug 08,2022, Elapsed time: 0:00:00
+# End time: 15:31:21 on Feb 07,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb 
-# Start time: 08:00:18 on Aug 08,2022
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 15:31:21 on Feb 07,2024
 # Loading sv_std.std
-# Loading work.tb(fast)
-# Loading work.silly(fast)
-# .main_pane.list.interior.cs.body
-# .main_pane.wave.interior.cs.body.pw.wf
-# End time: 08:00:30 on Aug 08,2022, Elapsed time: 0:00:12
-# Errors: 0, Warnings: 0
+# Loading work.tb
+# ** Error: (vsim-3033) Instantiation of 'silly' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: fullAdder_tb.sv Line: 12
+#         Searched libraries:
+#             /home/morptavius/Documents/GitHub/DLD/Lab0/SV/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./fullAdder.do PAUSED at line 33
+# End time: 15:31:36 on Feb 07,2024, Elapsed time: 0:00:15
+# Errors: 1, Warnings: 0

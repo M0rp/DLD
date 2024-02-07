@@ -9,7 +9,7 @@ module tb ();
    logic    clk;   
    
   // instantiate device under test
-   silly dut (a, b, cIn, sum, cOut);
+   fullAdder dut (a, b, cIn, sum, cOut);
 
    // 2 ns clock
    initial 

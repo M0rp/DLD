@@ -1,26 +1,18 @@
 # do fullAdder.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:31:21 on Feb 07,2024
+# Start time: 15:36:39 on Feb 07,2024
 # vlog -reportprogress 300 fullAdder.sv fullAdder_tb.sv 
 # -- Compiling module fullAdder
 # -- Compiling module tb
 # 
 # Top level modules:
-# 	fullAdder
 # 	tb
-# End time: 15:31:21 on Feb 07,2024, Elapsed time: 0:00:00
+# End time: 15:36:39 on Feb 07,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb 
-# Start time: 15:31:21 on Feb 07,2024
+# Start time: 15:36:39 on Feb 07,2024
 # Loading sv_std.std
 # Loading work.tb
-# ** Error: (vsim-3033) Instantiation of 'silly' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb File: fullAdder_tb.sv Line: 12
-#         Searched libraries:
-#             /home/morptavius/Documents/GitHub/DLD/Lab0/SV/work
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./fullAdder.do PAUSED at line 33
-# End time: 15:31:36 on Feb 07,2024, Elapsed time: 0:00:15
-# Errors: 1, Warnings: 0
+# Loading work.fullAdder
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf

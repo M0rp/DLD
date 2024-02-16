@@ -22,45 +22,41 @@ module tb ();
    initial
      begin
     
-	#0   a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;
+		#0   a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;
 
-	#20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;
+		#20  a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;
 
-	#20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;	
+		#20  a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;	
 
-	#20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;	
+		#20  a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;	
 
-	#20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;	
+		#20  a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;	
 
-	#20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;	
+		#20  a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;	
 
-	#20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;	
+		#20  a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;	
 
-	#20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;
+		#20  a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;
 
-    #20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;	
-
-	#20  a = $random;	
-	#0   b = $random;	
-	#0   cIn = $random;
+		#20  a = $random;	
+		#0   b = $random;	
+		#0   cIn = $random;
 	
      end
 

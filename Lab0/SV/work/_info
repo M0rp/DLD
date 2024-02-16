@@ -11,7 +11,7 @@ cModel Technology
 Z0 d/home/morptavius/Documents/GitHub/DLD/Lab0/SV
 vfullAdder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1707341799
+Z2 !s110 1707517731
 !i10b 1
 !s100 7PeMl6@;`5ZGbFJBJU5]O0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1707341799.000000
+Z6 !s108 1707517731.000000
 !s107 fullAdder_tb.sv|fullAdder.sv|
 Z7 !s90 -reportprogress|300|fullAdder.sv|fullAdder_tb.sv|
 !i113 1
@@ -38,17 +38,17 @@ vtb
 R1
 R2
 !i10b 1
-!s100 eh0^HER:IeFAJm6aVkOdT1
+!s100 FFO73J@?N[lT9IQk^BdmB2
 R3
-IL<=m0WG<<PmCnG7bgXm;^1
+I4F>hXJbl][SeZ]=^g1@jm2
 R4
 S1
 R0
-w1707341738
+w1707514825
 8fullAdder_tb.sv
 FfullAdder_tb.sv
 !i122 0
-L0 2 67
+L0 2 63
 R5
 r1
 !s85 0
